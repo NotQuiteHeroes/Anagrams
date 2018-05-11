@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Anagrams</string>
+    <string name="play">Play!</string>
+    <string name="gamePlayHolder">Selected letters displayed here...</string>
+    <string name="submit">Submit Word</string>
+    <string name="finalScore">Final Score: %d</string>
+    <string name="foundWordsHolder">This \n is \n where \n found \n words \n will \n be \n displayed \n along \n with \n their \n scores</string>
+    <string name="done">Done!</string>
+</resources>

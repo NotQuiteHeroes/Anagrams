@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOver">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/halftone_yellow_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:text="@string/finalScore"
+            android:background="@color/offWhite"
+            android:textSize="14pt"
+            android:textAlignment="center"
+            android:textColor="@color/darkBlue"
+            android:layout_marginTop="15sp"
+            android:layout_gravity="center"
+            android:id="@+id/scoreField"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp">
+
+            <TextView
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:text="@string/foundWordsHolder"
+                android:background="@color/offWhite"
+                android:textSize="12pt"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/darkBlue"
+                android:id="@+id/allWordsField"/>
+        </ScrollView>
+
+        <Button
+            android:layout_width="170sp"
+            android:layout_height="60sp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/done"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:textColor="@color/offWhite"
+            android:textSize="10pt"
+            android:id="@+id/doneButton"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

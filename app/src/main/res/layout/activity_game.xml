@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/halftone_yellow_light"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48sp"
+            android:layout_marginTop="30sp"
+            android:columnCount="5"
+            android:orientation="horizontal"
+            android:rowCount="5">
+
+            <ImageButton
+                android:id="@+id/c0r0"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/a" />
+
+            <ImageButton
+                android:id="@+id/c1r0"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/b" />
+
+            <ImageButton
+                android:id="@+id/c2r0"
+                android:layout_column="2"
+                android:layout_row="0"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/c" />
+
+            <ImageButton
+                android:id="@+id/c3r0"
+                android:layout_column="3"
+                android:layout_row="0"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/d" />
+
+            <ImageButton
+                android:id="@+id/c4r0"
+                android:layout_column="4"
+                android:layout_row="0"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/e" />
+
+            <ImageButton
+                android:id="@+id/c0r1"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/f" />
+
+            <ImageButton
+                android:id="@+id/c1r1"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/g" />
+
+            <ImageButton
+                android:id="@+id/c2r1"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/h" />
+
+            <ImageButton
+                android:id="@+id/c3r1"
+                android:layout_column="3"
+                android:layout_row="1"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/i" />
+
+            <ImageButton
+                android:id="@+id/c4r1"
+                android:layout_column="4"
+                android:layout_row="1"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/j" />
+
+            <ImageButton
+                android:id="@+id/c0r2"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/k" />
+
+            <ImageButton
+                android:id="@+id/c1r2"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/l" />
+
+            <ImageButton
+                android:id="@+id/c2r2"
+                android:layout_column="2"
+                android:layout_row="2"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/m" />
+
+            <ImageButton
+                android:id="@+id/c3r2"
+                android:layout_column="3"
+                android:layout_row="2"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/n" />
+
+            <ImageButton
+                android:id="@+id/c4r2"
+                android:layout_column="4"
+                android:layout_row="2"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/o" />
+
+            <ImageButton
+                android:id="@+id/c0r3"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/p" />
+
+            <ImageButton
+                android:id="@+id/c1r3"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/q_pink_text" />
+
+            <ImageButton
+                android:id="@+id/c2r3"
+                android:layout_column="2"
+                android:layout_row="3"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/r" />
+
+            <ImageButton
+                android:id="@+id/c3r3"
+                android:layout_column="3"
+                android:layout_row="3"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/s" />
+
+            <ImageButton
+                android:id="@+id/c4r3"
+                android:layout_column="4"
+                android:layout_row="3"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/t" />
+
+            <ImageButton
+                android:id="@+id/c0r4"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/u" />
+
+            <ImageButton
+                android:id="@+id/c1r4"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/v" />
+
+            <ImageButton
+                android:id="@+id/c2r4"
+                android:layout_column="2"
+                android:layout_row="4"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/w" />
+
+            <ImageButton
+                android:id="@+id/c3r4"
+                android:layout_column="3"
+                android:layout_row="4"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/x_pink_text" />
+
+            <ImageButton
+                android:id="@+id/c4r4"
+                android:layout_column="4"
+                android:layout_row="4"
+                android:background="@drawable/rounded_button_yellow"
+                android:src="@drawable/y" />
+        </GridLayout>
+
+        <TextView
+            android:layout_width="326sp"
+            android:layout_height="40sp"
+            android:text="@string/gamePlayHolder"
+            android:background="@color/offWhite"
+            android:layout_gravity="center"
+            android:textSize="9.5pt"
+            android:textColor="@color/darkBlue"
+            android:layout_marginTop="40sp"
+            android:id="@+id/playField"/>
+
+        <Button
+            android:layout_width="170sp"
+            android:layout_height="60sp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/submit"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:textColor="@color/offWhite"
+            android:textSize="10pt"
+            android:id="@+id/submitButton"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
