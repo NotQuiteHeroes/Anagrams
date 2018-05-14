@@ -16,12 +16,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="start"
+        android:layout_gravity="center"
         android:src="@drawable/anagram_icon"
         tools:ignore="ContentDescription"
         android:adjustViewBounds="true"
-        android:layout_marginTop="20sp"
-        android:layout_marginStart="65sp"/>
+        android:layout_marginTop="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -30,8 +29,7 @@
             android:textColor="@color/pink"
             android:fontFamily="@font/sketch_college"
             android:textSize="30pt"
-            android:layout_marginTop="10sp"
-            android:layout_marginStart="8sp"
+            android:layout_gravity="center"
             android:id="@+id/logoText"/>
         <Button
             android:layout_width="170sp"
