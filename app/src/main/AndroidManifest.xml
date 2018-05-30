@@ -9,8 +9,7 @@
         android:roundIcon="@drawable/anagram_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".GameActivity" />
         <activity android:name=".GameOver" />
         <activity android:name=".Splash">
@@ -20,6 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".userInfo" />
+        <activity android:name=".Scores" />
+        <activity android:name=".EditInfo"></activity>
     </application>
 
 </manifest>

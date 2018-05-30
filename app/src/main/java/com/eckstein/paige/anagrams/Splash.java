@@ -59,7 +59,7 @@ public class Splash extends Activity {
         public DrawView(Context context)
         {
             super(context);
-            plain = ResourcesCompat.getFont(context, R.font.sketch_college);
+            plain = ResourcesCompat.getFont(context, R.font.hand_type_writer);
             paint = new Paint();
             background = BitmapFactory.decodeResource(getResources(), R.drawable.halftone_yellow_light);
             logo = BitmapFactory.decodeResource(getResources(), R.drawable.anagram_icon);
@@ -74,9 +74,9 @@ public class Splash extends Activity {
             int x =10;
             int y = 1350;
             paint.setTypeface(plain);
-            paint.setColor(getResources().getColor(R.color.pink));
+            paint.setColor(getResources().getColor(R.color.darkBlue));
             paint.setLinearText(true);
-            paint.setTextSize(190);
+            paint.setTextSize(170);
             dest = new Rect(0, 0, canvas.getWidth(), canvas.getHeight());
             canvas.drawBitmap(background, src, dest, paint);
             canvas.drawBitmap(logo, 220, 230, paint);

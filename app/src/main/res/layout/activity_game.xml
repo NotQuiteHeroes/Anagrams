@@ -15,10 +15,10 @@
         <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="48sp"
             android:layout_marginTop="30sp"
             android:columnCount="5"
             android:orientation="horizontal"
+            android:layout_gravity="center"
             android:rowCount="5">
 
             <ImageButton

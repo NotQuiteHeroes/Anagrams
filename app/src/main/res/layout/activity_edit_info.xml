@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/halftone_yellow_light"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editInformation"
+            android:fontFamily="@font/hand_type_writer"
+            android:padding="8sp"
+            android:textSize="14pt"
+            android:textAlignment="center"
+            android:layout_alignParentStart="true"
+            android:background="@color/darkBlue"
+            android:textColor="@color/offWhite"
+            android:id="@+id/editInfoBanner"/>
+
+
+        <TextView
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:text="@string/firstName"
+            android:fontFamily="@font/hand_type_writer"
+            android:textSize="8pt"
+            android:padding="10sp"
+            android:layout_marginTop="25sp"
+            android:background="@color/lightBlue"
+            android:layout_below="@+id/editInfoBanner"
+            android:textColor="@color/darkBlue"
+            android:id="@+id/editFirstName" />
+
+        <EditText
+            android:id="@+id/editFirstNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editFirstName"
+            android:layout_toEndOf="@+id/editFirstName"
+            android:background="@color/darkBlue"
+            android:fontFamily="@font/hand_type_writer"
+            android:padding="10sp"
+            android:textColor="@color/offWhite"
+            android:textSize="8pt"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:text="@string/lastName"
+            android:fontFamily="@font/hand_type_writer"
+            android:textSize="8pt"
+            android:padding="10sp"
+            android:layout_marginTop="25sp"
+            android:background="@color/lightBlue"
+            android:textColor="@color/darkBlue"
+            android:layout_below="@+id/editFirstName"
+            android:id="@+id/editLastName"/>
+
+        <EditText
+            android:id="@+id/editLastNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editLastName"
+            android:layout_toEndOf="@+id/editLastName"
+            android:background="@color/darkBlue"
+            android:fontFamily="@font/hand_type_writer"
+            android:padding="10sp"
+            android:textColor="@color/offWhite"
+            android:textSize="8pt"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:text="@string/userName"
+            android:fontFamily="@font/hand_type_writer"
+            android:textSize="8pt"
+            android:padding="10sp"
+            android:layout_marginTop="25sp"
+            android:background="@color/lightBlue"
+            android:textColor="@color/darkBlue"
+            android:layout_below="@+id/editLastName"
+            android:id="@+id/editUserName"/>
+
+        <EditText
+            android:id="@+id/editUserNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editUserName"
+            android:layout_toEndOf="@+id/editUserName"
+            android:background="@color/darkBlue"
+            android:fontFamily="@font/hand_type_writer"
+            android:padding="10sp"
+            android:textColor="@color/offWhite"
+            android:textSize="8pt"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:fontFamily="@font/hand_type_writer"
+            android:textSize="8pt"
+            android:padding="10sp"
+            android:layout_marginTop="25sp"
+            android:background="@color/lightBlue"
+            android:textColor="@color/darkBlue"
+            android:layout_below="@+id/editUserName"
+            android:id="@+id/editLocation"/>
+
+        <EditText
+            android:id="@+id/editLocationField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editLocation"
+            android:layout_toEndOf="@+id/editLocation"
+            android:background="@color/darkBlue"
+            android:fontFamily="@font/hand_type_writer"
+            android:padding="10sp"
+            android:textColor="@color/offWhite"
+            android:textSize="8pt"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <Button
+            android:layout_width="140sp"
+            android:layout_height="50sp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/rounded_button"
+            android:text="@string/done"
+            android:textColor="@color/offWhite"
+            android:textSize="10pt"
+            android:fontFamily="@font/hand_type_writer"
+            android:id="@+id/editInfoDoneButton"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

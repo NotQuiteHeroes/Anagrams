@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scores">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/halftone_yellow_light"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textAlignment="center"
+            android:fontFamily="@font/hand_type_writer"
+            android:padding="8sp"
+            android:textSize="15pt"
+            android:layout_alignParentStart="true"
+            android:background="@color/darkBlue"
+            android:textColor="@color/offWhite"
+            android:id="@+id/infoBanner"/>
+
+
+        <TextView
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:text="@string/highScore"
+            android:fontFamily="@font/hand_type_writer"
+            android:textSize="8pt"
+            android:padding="10sp"
+            android:layout_marginTop="25sp"
+            android:background="@color/lightBlue"
+            android:layout_below="@+id/infoBanner"
+            android:textColor="@color/darkBlue"
+            android:id="@+id/highScore"/>
+
+        <TextView
+            android:id="@+id/highScoreField"
+            android:layout_width="230sp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/highScore"
+            android:layout_toEndOf="@+id/highScore"
+            android:background="@color/darkBlue"
+            android:fontFamily="@font/hand_type_writer"
+            android:padding="10sp"
+            android:textColor="@color/offWhite"
+            android:textSize="8pt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/allScores"
+            android:fontFamily="@font/hand_type_writer"
+            android:textSize="8pt"
+            android:padding="10sp"
+            android:layout_marginTop="25sp"
+            android:background="@color/lightBlue"
+            android:layout_below="@+id/highScore"
+            android:textColor="@color/darkBlue"
+            android:textAlignment="center"
+            android:id="@+id/allScores"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="280sp"
+            android:layout_below="@+id/allScores"
+            android:background="@color/offWhite">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="280sp"
+                android:id="@+id/allScoresField"
+                android:textColor="@color/darkBlue"/>
+
+        </ScrollView>
+
+        <Button
+            android:layout_width="140sp"
+            android:layout_height="50sp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/rounded_button"
+            android:text="@string/done"
+            android:textColor="@color/offWhite"
+            android:textSize="10pt"
+            android:fontFamily="@font/hand_type_writer"
+            android:id="@+id/infoDoneButton"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -2,8 +2,18 @@
     <string name="app_name">Anagrams</string>
     <string name="play">Play!</string>
     <string name="gamePlayHolder">Selected letters displayed here...</string>
+    <string name="userInfo">My Information</string>
+    <string name="score">Scores</string>
     <string name="submit">Submit Word</string>
     <string name="finalScore">Final Score: %d</string>
     <string name="foundWordsHolder">This \n is \n where \n found \n words \n will \n be \n displayed \n along \n with \n their \n scores</string>
     <string name="done">Done!</string>
+    <string name="firstName">First Name: </string>
+    <string name="lastName">Last Name: </string>
+    <string name="userName">User Name: </string>
+    <string name="location">Location: </string>
+    <string name="edit">Edit</string>
+    <string name="highScore">High Score</string>
+    <string name="allScores">All Scores</string>
+    <string name="editInformation">Edit Information</string>
 </resources>
