@@ -5,9 +5,9 @@ import java.util.Random;
 public class GamePlay {
 
     private int[] tiles;
-    Random rng;
+    private Random rng;
 
-    public GamePlay()
+    private GamePlay()
     {
         tiles = new int[]{R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a,
                           R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.b,
