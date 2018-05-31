@@ -46,7 +46,7 @@ public class Scores extends Activity {
 
     protected void setFields()
     {
-        highScoreField.setText(highScore);
+        highScoreField.setText(Integer.toString(highScore));
 
         for(int i = 0; i < splitScores.size()/3; i+=3)
         {

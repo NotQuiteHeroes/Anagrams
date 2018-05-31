@@ -7,7 +7,7 @@ public class GamePlay {
     private int[] tiles;
     private Random rng;
 
-    private GamePlay()
+    public GamePlay()
     {
         tiles = new int[]{R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a,
                           R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.b,
