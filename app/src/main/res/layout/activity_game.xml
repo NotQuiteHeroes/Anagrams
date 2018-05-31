@@ -209,12 +209,14 @@
             android:id="@+id/playField"/>
 
         <Button
-            android:layout_width="170sp"
-            android:layout_height="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
             android:background="@drawable/rounded_button"
             android:text="@string/submit"
             android:layout_gravity="center"
-            android:layout_marginTop="30sp"
+            android:fontFamily="@font/hand_type_writer"
+            android:layout_marginTop="20sp"
             android:textColor="@color/offWhite"
             android:textSize="10pt"
             android:id="@+id/submitButton"/>
