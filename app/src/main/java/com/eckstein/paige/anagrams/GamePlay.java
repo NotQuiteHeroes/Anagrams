@@ -5,7 +5,7 @@ import java.util.Random;
 public class GamePlay {
 
     private int[] tiles;
-    Random rng;
+    private Random rng;
 
     public GamePlay()
     {
@@ -35,6 +35,119 @@ public class GamePlay {
 
     public int getRandomTile()
     {
-        return tiles[rng.nextInt(100)];
+        return tiles[rng.nextInt(99)];
+    }
+
+    public String getTileLetter(int drawable)
+    {
+       switch(drawable)
+       {
+           case R.drawable.a:
+           {
+               return "a";
+           }
+           case R.drawable.b:
+           {
+               return "b";
+           }
+           case R.drawable.c:
+           {
+               return "c";
+           }
+           case R.drawable.d:
+           {
+               return "d";
+           }
+           case R.drawable.e:
+           {
+               return "e";
+           }
+           case R.drawable.f:
+           {
+               return "f";
+           }
+           case R.drawable.g:
+           {
+               return "g";
+           }
+           case R.drawable.h:
+           {
+               return "h";
+           }
+           case R.drawable.i:
+           {
+               return "i";
+           }
+           case R.drawable.j:
+           {
+               return "j";
+           }
+           case R.drawable.k:
+           {
+               return "k";
+           }
+           case R.drawable.l:
+           {
+               return "l";
+           }
+           case R.drawable.m:
+           {
+               return "m";
+           }
+           case R.drawable.n:
+           {
+               return "n";
+           }
+           case R.drawable.o:
+           {
+               return "o";
+           }
+           case R.drawable.p:
+           {
+               return "p";
+           }
+           case R.drawable.q:
+           {
+               return "q";
+           }
+           case R.drawable.r:
+           {
+               return "r";
+           }
+           case R.drawable.s:
+           {
+               return "s";
+           }
+           case R.drawable.t:
+           {
+               return "t";
+           }
+           case R.drawable.u:
+           {
+               return "u";
+           }
+           case R.drawable.v:
+           {
+               return "v";
+           }
+           case R.drawable.w:
+           {
+               return "w";
+           }
+           case R.drawable.x:
+           {
+               return "x";
+           }
+           case R.drawable.y:
+           {
+               return "y";
+           }
+           case R.drawable.z:
+           {
+               return "z";
+           }
+       }
+
+       return "a";
     }
 }

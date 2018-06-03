@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,181 +25,181 @@
                 android:layout_column="0"
                 android:layout_row="0"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/a" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c1r0"
                 android:layout_column="1"
                 android:layout_row="0"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/b" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c2r0"
                 android:layout_column="2"
                 android:layout_row="0"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/c" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c3r0"
                 android:layout_column="3"
                 android:layout_row="0"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/d" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c4r0"
                 android:layout_column="4"
                 android:layout_row="0"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/e" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c0r1"
                 android:layout_column="0"
                 android:layout_row="1"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/f" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c1r1"
                 android:layout_column="1"
                 android:layout_row="1"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/g" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c2r1"
                 android:layout_column="2"
                 android:layout_row="1"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/h" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c3r1"
                 android:layout_column="3"
                 android:layout_row="1"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/i" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c4r1"
                 android:layout_column="4"
                 android:layout_row="1"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/j" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c0r2"
                 android:layout_column="0"
                 android:layout_row="2"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/k" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c1r2"
                 android:layout_column="1"
                 android:layout_row="2"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/l" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c2r2"
                 android:layout_column="2"
                 android:layout_row="2"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/m" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c3r2"
                 android:layout_column="3"
                 android:layout_row="2"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/n" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c4r2"
                 android:layout_column="4"
                 android:layout_row="2"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/o" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c0r3"
                 android:layout_column="0"
                 android:layout_row="3"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/p" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c1r3"
                 android:layout_column="1"
                 android:layout_row="3"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/q_pink_text" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c2r3"
                 android:layout_column="2"
                 android:layout_row="3"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/r" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c3r3"
                 android:layout_column="3"
                 android:layout_row="3"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/s" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c4r3"
                 android:layout_column="4"
                 android:layout_row="3"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/t" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c0r4"
                 android:layout_column="0"
                 android:layout_row="4"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/u" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c1r4"
                 android:layout_column="1"
                 android:layout_row="4"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/v" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c2r4"
                 android:layout_column="2"
                 android:layout_row="4"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/w" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c3r4"
                 android:layout_column="3"
                 android:layout_row="4"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/x_pink_text" />
+                tools:ignore="ContentDescription"/>
 
             <ImageButton
                 android:id="@+id/c4r4"
                 android:layout_column="4"
                 android:layout_row="4"
                 android:background="@drawable/rounded_button_yellow"
-                android:src="@drawable/y" />
+                tools:ignore="ContentDescription"/>
         </GridLayout>
 
         <TextView
             android:layout_width="326sp"
             android:layout_height="40sp"
-            android:text="@string/gamePlayHolder"
+            android:fontFamily="@font/hand_type_writer"
             android:background="@color/offWhite"
             android:layout_gravity="center"
             android:textSize="9.5pt"
