@@ -37,7 +37,8 @@
             android:background="@color/lightBlue"
             android:layout_below="@+id/editInfoBanner"
             android:textColor="@color/darkBlue"
-            android:id="@+id/editFirstName" />
+            android:id="@+id/editFirstName"
+            android:labelFor="@+id/editFirstNameField"/>
 
         <EditText
             android:id="@+id/editFirstNameField"
@@ -51,7 +52,8 @@
             android:textColor="@color/offWhite"
             android:textSize="8pt"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true"
+            android:inputType="textPersonName"/>
 
         <TextView
             android:layout_width="160sp"
@@ -64,7 +66,8 @@
             android:background="@color/lightBlue"
             android:textColor="@color/darkBlue"
             android:layout_below="@+id/editFirstName"
-            android:id="@+id/editLastName"/>
+            android:id="@+id/editLastName"
+            android:labelFor="@+id/editLastNameField"/>
 
         <EditText
             android:id="@+id/editLastNameField"
@@ -78,7 +81,8 @@
             android:textColor="@color/offWhite"
             android:textSize="8pt"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true"
+            android:inputType="textPersonName"/>
 
         <TextView
             android:layout_width="160sp"
@@ -91,7 +95,8 @@
             android:background="@color/lightBlue"
             android:textColor="@color/darkBlue"
             android:layout_below="@+id/editLastName"
-            android:id="@+id/editUserName"/>
+            android:id="@+id/editUserName"
+            android:labelFor="@+id/editUserNameField"/>
 
         <EditText
             android:id="@+id/editUserNameField"
@@ -105,7 +110,8 @@
             android:textColor="@color/offWhite"
             android:textSize="8pt"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true"
+            android:inputType="textPersonName"/>
 
         <TextView
             android:layout_width="160sp"
@@ -118,7 +124,8 @@
             android:background="@color/lightBlue"
             android:textColor="@color/darkBlue"
             android:layout_below="@+id/editUserName"
-            android:id="@+id/editLocation"/>
+            android:id="@+id/editLocation"
+            android:labelFor="@+id/editLocationField"/>
 
         <EditText
             android:id="@+id/editLocationField"
@@ -132,7 +139,8 @@
             android:textColor="@color/offWhite"
             android:textSize="8pt"
             android:clickable="true"
-            android:focusable="true"/>
+            android:focusable="true"
+            android:inputType="text"/>
 
         <Button
             android:layout_width="140sp"

@@ -3,7 +3,6 @@ package com.eckstein.paige.anagrams;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -47,7 +46,7 @@ public class Scores extends Activity {
 
     protected void setFields()
     {
-        highScoreField.setText(highScore);
+        highScoreField.setText(Integer.toString(highScore));
 
         for(int i = 0; i < splitScores.size()/3; i+=3)
         {

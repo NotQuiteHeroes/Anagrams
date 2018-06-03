@@ -42,7 +42,7 @@
 
         <TextView
             android:id="@+id/highScoreField"
-            android:layout_width="230sp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/highScore"
             android:layout_toEndOf="@+id/highScore"
