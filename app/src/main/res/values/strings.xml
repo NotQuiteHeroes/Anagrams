@@ -16,4 +16,5 @@
     <string name="highScore">High Score</string>
     <string name="allScores">All Scores</string>
     <string name="editInformation">Edit Information</string>
+    <string name="clear">Clear</string>
 </resources>

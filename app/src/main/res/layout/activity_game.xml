@@ -202,7 +202,7 @@
             android:fontFamily="@font/hand_type_writer"
             android:background="@color/offWhite"
             android:layout_gravity="center"
-            android:textSize="9.5pt"
+            android:textSize="12pt"
             android:textColor="@color/darkBlue"
             android:layout_marginTop="40sp"
             android:id="@+id/playField"/>
@@ -217,7 +217,20 @@
             android:fontFamily="@font/hand_type_writer"
             android:layout_marginTop="20sp"
             android:textColor="@color/offWhite"
-            android:textSize="10pt"
+            android:textSize="12pt"
             android:id="@+id/submitButton"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/clear"
+            android:layout_gravity="center"
+            android:fontFamily="@font/hand_type_writer"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/offWhite"
+            android:textSize="12pt"
+            android:id="@+id/clearButton"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
