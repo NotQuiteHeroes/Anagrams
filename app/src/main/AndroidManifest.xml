@@ -8,20 +8,27 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/anagram_icon"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".GameActivity" />
-        <activity android:name=".GameOver" />
-        <activity android:name=".Splash">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GameOver"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".userInfo" />
-        <activity android:name=".Scores" />
-        <activity android:name=".EditInfo"></activity>
+        <activity android:name=".userInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Scores"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EditInfo"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

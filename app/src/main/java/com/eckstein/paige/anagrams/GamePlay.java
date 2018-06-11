@@ -55,22 +55,22 @@ public class GamePlay {
         this.context = context;
 
         tiles = new int[]{R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a,
-                          R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.b,
+                          R.drawable.a, R.drawable.a, R.drawable.a, R.drawable.b, R.drawable.b,
                           R.drawable.b, R.drawable.c, R.drawable.c, R.drawable.d, R.drawable.d,
                           R.drawable.d, R.drawable.d, R.drawable.e, R.drawable.e, R.drawable.e,
                           R.drawable.e, R.drawable.e, R.drawable.e, R.drawable.e, R.drawable.e,
-                          R.drawable.e, R.drawable.e, R.drawable.e, R.drawable.e, R.drawable.f,
-                          R.drawable.f, R.drawable.g, R.drawable.g, R.drawable.g, R.drawable.h,
-                          R.drawable.h, R.drawable.i, R.drawable.i, R.drawable.i, R.drawable.i,
+                          R.drawable.e, R.drawable.e, R.drawable.f, R.drawable.f, R.drawable.f,
+                          R.drawable.g, R.drawable.g, R.drawable.g, R.drawable.g, R.drawable.h,
+                          R.drawable.h, R.drawable.h, R.drawable.i, R.drawable.i, R.drawable.i,
                           R.drawable.i, R.drawable.i, R.drawable.i, R.drawable.i, R.drawable.i,
                           R.drawable.j, R.drawable.j, R.drawable.k, R.drawable.k, R.drawable.l,
                           R.drawable.l, R.drawable.l, R.drawable.l, R.drawable.m, R.drawable.m,
                           R.drawable.m, R.drawable.m, R.drawable.n, R.drawable.n, R.drawable.n,
                           R.drawable.n, R.drawable.o, R.drawable.o, R.drawable.o, R.drawable.o,
-                          R.drawable.o, R.drawable.o, R.drawable.o, R.drawable.o, R.drawable.p,
+                          R.drawable.o, R.drawable.o, R.drawable.o, R.drawable.p, R.drawable.p,
                           R.drawable.p, R.drawable.q, R.drawable.r, R.drawable.r, R.drawable.r,
                           R.drawable.r, R.drawable.r, R.drawable.r, R.drawable.s, R.drawable.s,
-                          R.drawable.s, R.drawable.s, R.drawable.t, R.drawable.t, R.drawable.t,
+                          R.drawable.s, R.drawable.s, R.drawable.s, R.drawable.t, R.drawable.t,
                           R.drawable.t, R.drawable.t, R.drawable.t, R.drawable.u, R.drawable.u,
                           R.drawable.u, R.drawable.u, R.drawable.v, R.drawable.v, R.drawable.w,
                           R.drawable.w, R.drawable.x, R.drawable.y, R.drawable.y, R.drawable.z};
@@ -95,9 +95,12 @@ public class GamePlay {
         BufferedReader br = null;
         try
         {
+            //find text file containing all English words
             InputStream is = context.getResources().openRawResource(R.raw.words);
+            //feed to buffered reader
             br = new BufferedReader(new InputStreamReader(is));
             String line = null;
+            //read in each word and add to dictionary
             while((line = br.readLine())!= null)
             {
                 dictionary.add(line);

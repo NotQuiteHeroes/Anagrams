@@ -3,8 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".GameActivity">
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -220,7 +223,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10sp"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_button_green"
             android:text="@string/submit"
             android:layout_gravity="center"
             android:fontFamily="@font/hand_type_writer"
@@ -233,7 +236,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10sp"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_button_dark_blue"
             android:text="@string/clear"
             android:layout_gravity="center"
             android:fontFamily="@font/hand_type_writer"
@@ -241,5 +244,16 @@
             android:textColor="@color/offWhite"
             android:textSize="12pt"
             android:id="@+id/clearButton"/>
+
     </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/muteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mute"
+        app:backgroundTint="@color/pink"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
 </android.support.constraint.ConstraintLayout>

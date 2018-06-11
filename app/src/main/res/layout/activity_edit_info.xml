@@ -146,7 +146,7 @@
             android:layout_width="140sp"
             android:layout_height="50sp"
             android:layout_alignParentEnd="true"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_button_green"
             android:text="@string/done"
             android:textColor="@color/offWhite"
             android:textSize="10pt"
