@@ -75,6 +75,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="280sp"
+                android:textSize="8pt"
+                android:fontFamily="@font/hand_type_writer"
                 android:id="@+id/allScoresField"
                 android:textColor="@color/darkBlue"/>
 

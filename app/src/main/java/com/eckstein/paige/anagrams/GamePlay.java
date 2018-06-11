@@ -68,12 +68,12 @@ public class GamePlay {
                           R.drawable.m, R.drawable.m, R.drawable.n, R.drawable.n, R.drawable.n,
                           R.drawable.n, R.drawable.o, R.drawable.o, R.drawable.o, R.drawable.o,
                           R.drawable.o, R.drawable.o, R.drawable.o, R.drawable.o, R.drawable.p,
-                          R.drawable.p, R.drawable.q_pink_text, R.drawable.r, R.drawable.r, R.drawable.r,
+                          R.drawable.p, R.drawable.q, R.drawable.r, R.drawable.r, R.drawable.r,
                           R.drawable.r, R.drawable.r, R.drawable.r, R.drawable.s, R.drawable.s,
                           R.drawable.s, R.drawable.s, R.drawable.t, R.drawable.t, R.drawable.t,
                           R.drawable.t, R.drawable.t, R.drawable.t, R.drawable.u, R.drawable.u,
                           R.drawable.u, R.drawable.u, R.drawable.v, R.drawable.v, R.drawable.w,
-                          R.drawable.w, R.drawable.x_pink_text, R.drawable.y, R.drawable.y, R.drawable.z_pink_text};
+                          R.drawable.w, R.drawable.x, R.drawable.y, R.drawable.y, R.drawable.z};
 
         score = new HashMap<>();
         wordScores = new HashMap<>();
@@ -231,31 +231,150 @@ public class GamePlay {
     private void setupScore()
     {
         score.put('a', 1);
-        score.put('b', 3);
-        score.put('c', 3);
-        score.put('d', 3);
+        score.put('b', 4);
+        score.put('c', 4);
+        score.put('d', 4);
         score.put('e', 1);
-        score.put('f', 3);
-        score.put('g', 3);
-        score.put('h', 3);
+        score.put('f', 4);
+        score.put('g', 4);
+        score.put('h', 4);
         score.put('i', 1);
-        score.put('j', 5);
-        score.put('k', 5);
-        score.put('l', 1);
-        score.put('m', 1);
-        score.put('n', 1);
+        score.put('j', 6);
+        score.put('k', 6);
+        score.put('l', 2);
+        score.put('m', 2);
+        score.put('n', 2);
         score.put('o', 1);
-        score.put('p', 3);
+        score.put('p', 4);
         score.put('q', 10);
-        score.put('r', 1);
-        score.put('s', 1);
-        score.put('t', 1);
+        score.put('r', 2);
+        score.put('s', 2);
+        score.put('t', 2);
         score.put('u', 1);
-        score.put('v', 5);
-        score.put('w', 5);
+        score.put('v', 6);
+        score.put('w', 6);
         score.put('x', 10);
-        score.put('y', 5);
+        score.put('y', 6);
         score.put('z', 10);
+    }
+
+
+    /**
+     * Returns drawable id of pressed button image
+     * @param drawable non-pressed drawable id to determine appropriate pressed tile to return
+     * @return int: drawable id referring to pressed version of provided drawable image
+     */
+    public int getPressedTile(int drawable)
+    {
+        switch(drawable)
+        {
+            case R.drawable.a:
+            {
+                return R.drawable.a_pressed;
+            }
+            case R.drawable.b:
+            {
+                return R.drawable.b_pressed;
+            }
+            case R.drawable.c:
+            {
+                return R.drawable.c_pressed;
+            }
+            case R.drawable.d:
+            {
+                return R.drawable.d_pressed;
+            }
+            case R.drawable.e:
+            {
+                return R.drawable.e_pressed;
+            }
+            case R.drawable.f:
+            {
+                return R.drawable.f_pressed;
+            }
+            case R.drawable.g:
+            {
+                return R.drawable.g_pressed;
+            }
+            case R.drawable.h:
+            {
+                return R.drawable.h_pressed;
+            }
+            case R.drawable.i:
+            {
+                return R.drawable.i_pressed;
+            }
+            case R.drawable.j:
+            {
+                return R.drawable.j_pressed;
+            }
+            case R.drawable.k:
+            {
+                return R.drawable.k_pressed;
+            }
+            case R.drawable.l:
+            {
+                return R.drawable.l_pressed;
+            }
+            case R.drawable.m:
+            {
+                return R.drawable.m_pressed;
+            }
+            case R.drawable.n:
+            {
+                return R.drawable.n_pressed;
+            }
+            case R.drawable.o:
+            {
+                return R.drawable.o_pressed;
+            }
+            case R.drawable.p:
+            {
+                return R.drawable.p_pressed;
+            }
+            case R.drawable.q:
+            {
+                return R.drawable.q_pressed;
+            }
+            case R.drawable.r:
+            {
+                return R.drawable.r_pressed;
+            }
+            case R.drawable.s:
+            {
+                return R.drawable.s_pressed;
+            }
+            case R.drawable.t:
+            {
+                return R.drawable.t_pressed;
+            }
+            case R.drawable.u:
+            {
+                return R.drawable.u_pressed;
+            }
+            case R.drawable.v:
+            {
+                return R.drawable.v_pressed;
+            }
+            case R.drawable.w:
+            {
+                return R.drawable.w_pressed;
+            }
+            case R.drawable.x:
+            {
+                return R.drawable.x_pressed;
+            }
+            case R.drawable.y:
+            {
+                return R.drawable.y_pressed;
+            }
+            case R.drawable.z:
+            {
+                return R.drawable.z_pressed;
+            }
+        }
+
+        return 0;
     }
 
     /**
@@ -375,5 +494,123 @@ public class GamePlay {
        }
 
        return "a";
+    }
+
+    /**
+     * getTileDrawable returns the drawable id for each letter
+     * @param letter String: letter corresponding to letter tile drawable
+     * @return int: drawable id for specified letter
+     */
+    public int getTileDrawable(String letter)
+    {
+        switch(letter)
+        {
+            case "a":
+            {
+                return R.drawable.a;
+            }
+            case "b":
+            {
+                return R.drawable.b;
+            }
+            case "c":
+            {
+                return R.drawable.c;
+            }
+            case "d":
+            {
+                return R.drawable.d;
+            }
+            case "e":
+            {
+                return R.drawable.e;
+            }
+            case "f":
+            {
+                return R.drawable.f;
+            }
+            case "g":
+            {
+                return R.drawable.g;
+            }
+            case "h":
+            {
+                return R.drawable.h;
+            }
+            case "i":
+            {
+                return R.drawable.i;
+            }
+            case "j":
+            {
+                return R.drawable.j;
+            }
+            case "k":
+            {
+                return R.drawable.k;
+            }
+            case "l":
+            {
+                return R.drawable.l;
+            }
+            case "m":
+            {
+                return R.drawable.m;
+            }
+            case "n":
+            {
+                return R.drawable.n;
+            }
+            case "o":
+            {
+                return R.drawable.o;
+            }
+            case "p":
+            {
+                return R.drawable.p;
+            }
+            case "q":
+            {
+                return R.drawable.q;
+            }
+            case "r":
+            {
+                return R.drawable.r;
+            }
+            case "s":
+            {
+                return R.drawable.s;
+            }
+            case "t":
+            {
+                return R.drawable.t;
+            }
+            case "u":
+            {
+                return R.drawable.u;
+            }
+            case "v":
+            {
+                return R.drawable.v;
+            }
+            case "w":
+            {
+                return R.drawable.w;
+            }
+            case "x":
+            {
+                return R.drawable.x;
+            }
+            case "y":
+            {
+                return R.drawable.y;
+            }
+            case "z":
+            {
+                return R.drawable.z;
+            }
+        }
+
+        return 0;
     }
 }

@@ -5,7 +5,7 @@
     <string name="userInfo">My Information</string>
     <string name="score">Scores</string>
     <string name="submit">Submit Word</string>
-    <string name="finalScore">Final Score: %d</string>
+    <string name="finalScore">Final Score: %1$d</string>
     <string name="foundWordsHolder">This \n is \n where \n found \n words \n will \n be \n displayed \n along \n with \n their \n scores</string>
     <string name="done">Done!</string>
     <string name="firstName">First Name: </string>
@@ -17,4 +17,6 @@
     <string name="allScores">All Scores</string>
     <string name="editInformation">Edit Information</string>
     <string name="clear">Clear</string>
+    <string name="time">%1$02d:%2$02d</string>
+    <string name="scores">%1s \t\t\t %2d</string>
 </resources>
